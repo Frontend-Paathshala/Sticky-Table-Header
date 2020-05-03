@@ -1,0 +1,47 @@
+body {
+    background: #8fb0a9;
+}
+
+.table-fixed {
+    margin-left: 25rem;
+    margin-top: 10rem;
+}
+
+.table-fixed thead,
+.table-fixed thead>th {
+    background: #4d7275;
+    color: #fff;
+}
+
+.table-fixed tbody tr td {
+    background: #fff;
+}
+
+.table-fixed>thead>tr>th {
+    border: 0 !important;
+}
+
+.table-fixed>tbody>tr>td:last-child {
+    border-right: 0;
+}
+
+.table-fixed tbody td,
+.table-fixed thead>tr>th {
+    float: left;
+    font-size: 14px;
+    padding-left: 20px !important;
+}
+
+.table-fixed .col {
+    width: 25%;
+}
+
+.table-fixed tbody {
+    display: block;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.table-fixed tr {
+    display: block;
+}
